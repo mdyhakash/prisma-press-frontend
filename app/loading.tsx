@@ -4,7 +4,7 @@ export default function Loading() {
   return (
     <main className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
       {/* Featured post skeleton */}
-      <Skeleton className="aspect-[16/9] w-full rounded-lg sm:aspect-[21/9]" />
+      <Skeleton className="aspect-video w-full rounded-lg sm:aspect-21/9" />
 
       <div className="mt-10 grid grid-cols-1 gap-10 lg:grid-cols-[1fr_280px] sm:mt-14">
         {/* Feed skeleton */}
@@ -30,7 +30,7 @@ export default function Loading() {
                     <Skeleton className="h-4 w-16" />
                   </div>
                 </div>
-                <Skeleton className="hidden aspect-[4/3] w-32 shrink-0 rounded-md sm:block sm:w-40" />
+                <Skeleton className="hidden aspect-4/3 w-32 shrink-0 rounded-md sm:block sm:w-40" />
               </div>
             ))}
           </div>
